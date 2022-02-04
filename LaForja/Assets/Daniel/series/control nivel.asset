@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432e19d1039379c489dc7f3f532d6f70, type: 3}
+  m_Name: control nivel
+  m_EditorClassIdentifier: 
+  inventarioCuchillosForjar:
+  - {fileID: 3710503085731454652, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
+  - {fileID: 2517492893979882314, guid: d8fc0223dad460740ad16be6f04a10a4, type: 3}
+  - {fileID: 3203835422576407242, guid: 1fe62d90f024a54438023e8925000e5e, type: 3}
+  - {fileID: 3710503085731454652, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
+  mallasArma1:
+  - {fileID: 4070742307575406914, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
+  - {fileID: 3570394034828530925, guid: d8fc0223dad460740ad16be6f04a10a4, type: 3}
+  - {fileID: 3004478531797272080, guid: 1fe62d90f024a54438023e8925000e5e, type: 3}
+  mallasArma2:
+  - {fileID: 4070742307575406914, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
+  - {fileID: 3570394034828530925, guid: d8fc0223dad460740ad16be6f04a10a4, type: 3}
+  - {fileID: 3004478531797272080, guid: 1fe62d90f024a54438023e8925000e5e, type: 3}
+  mallasArma3:
+  - {fileID: 4070742307575406914, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
+  - {fileID: 3570394034828530925, guid: d8fc0223dad460740ad16be6f04a10a4, type: 3}
+  - {fileID: 3004478531797272080, guid: 1fe62d90f024a54438023e8925000e5e, type: 3}
+  mallasArma4:
+  - {fileID: 4070742307575406914, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
+  - {fileID: 3570394034828530925, guid: d8fc0223dad460740ad16be6f04a10a4, type: 3}
+  - {fileID: 3004478531797272080, guid: 1fe62d90f024a54438023e8925000e5e, type: 3}
+  cuchilloAForjar: {fileID: 3710503085731454652, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
+  MaterialSeleccionado: {fileID: 2451575690003969062, guid: 92513952c9ed18749bdc5b108d30d246, type: 3}
+  MaterialSeleccion: {fileID: 7025905723797874639, guid: 53abb34f792db694eb752200a45b299c, type: 3}
+  mallaObjetoInicial: {fileID: 0}
