@@ -1,0 +1,267 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'es' Physical Memory: 8134 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/JANUS/Documents/GitHub/LaForja/LaForja
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58058
+Successfully changed project path to: C:/Users/JANUS/Documents/GitHub/LaForja/LaForja
+C:/Users/JANUS/Documents/GitHub/LaForja/LaForja
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 194.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/JANUS/Documents/GitHub/LaForja/LaForja/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730 (ID=0x1287)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   30.0.14.7239
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002437 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2775ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (2087ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (659ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (179ms)
+			SetupLoadedEditorAssemblies (711ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.050365 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.952 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1955ms)
+		BeginReloadAssembly (425ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (106ms)
+		EndReloadAssembly (1352ms)
+			LoadAssemblies (243ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (624ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.9 MB.
+System memory in use after: 127.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3241.
+Total: 2.916200 ms (FindLiveObjects: 0.220500 ms CreateObjectMapping: 0.137600 ms MarkObjects: 2.487500 ms  DeleteObjects: 0.069800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/scriptsnicolas/ultimaArma/nueva arma/textura/nuevaarma_Material_Metallic.png
+  artifactKey: Guid(c59213cd39e8b054bbd75cbb523f1551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/nueva arma/textura/nuevaarma_Material_Metallic.png using Guid(c59213cd39e8b054bbd75cbb523f1551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7967b564bdf57b51cdcc3916652a223') in 0.155240 seconds 
+  Import took 0.159285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/nueva arma/textura
+  artifactKey: Guid(46728bc71e7168449b67a404e61a6474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/nueva arma/textura using Guid(46728bc71e7168449b67a404e61a6474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3e2b3e805a4711e9befd730d769014') in 0.006483 seconds 
+  Import took 0.012530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/nueva arma
+  artifactKey: Guid(9a1b7f73822741b4a87291788fd67bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/nueva arma using Guid(9a1b7f73822741b4a87291788fd67bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63ce905bc96a20d384d18162047baa6') in 0.005596 seconds 
+  Import took 0.010460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/nueva arma/textura/nuevaarma_Material_BaseColor.png
+  artifactKey: Guid(6832f9cd27ed8814e93ad8c13ce3415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/nueva arma/textura/nuevaarma_Material_BaseColor.png using Guid(6832f9cd27ed8814e93ad8c13ce3415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd55de7e12ee4a6d099a1e626c4c5db8') in 0.044237 seconds 
+  Import took 0.048581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/nueva arma/textura/nuevaarma_Material_Normal.png
+  artifactKey: Guid(6c4b01f2e2c28d045b2186512f0f7c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/nueva arma/textura/nuevaarma_Material_Normal.png using Guid(6c4b01f2e2c28d045b2186512f0f7c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397b091cfd4e01c5e27a6581a0621efb') in 0.030840 seconds 
+  Import took 0.035927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/nueva arma/textura/nuevaarma_Material_Roughness.png
+  artifactKey: Guid(5d2b7600a9ed26549889499d125e5807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/nueva arma/textura/nuevaarma_Material_Roughness.png using Guid(5d2b7600a9ed26549889499d125e5807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead8fe35918401de3c01953bf20a6bbf') in 0.031287 seconds 
+  Import took 0.035745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/nueva arma/textura/nuevaarma_Material_Height.png
+  artifactKey: Guid(75455584aca9ef74f8ff34a2511ff53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/nueva arma/textura/nuevaarma_Material_Height.png using Guid(75455584aca9ef74f8ff34a2511ff53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575897582577539e3b5ae0d2cec9c728') in 0.028536 seconds 
+  Import took 0.034219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.084929 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/nuevaarma.blend
+  artifactKey: Guid(2542f2ac50bad444face04bfdd255311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/nuevaarma.blend using Guid(2542f2ac50bad444face04bfdd255311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5686a80964e395b95f269c495cd70fef') in 0.261568 seconds 
+  Import took 0.268653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.348701 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/hojaConGrietas
+  artifactKey: Guid(c6fdae2c140ca6747ba6c115eb4d99d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/hojaConGrietas using Guid(c6fdae2c140ca6747ba6c115eb4d99d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd86412e99de1150cce0e1d183801cc') in 0.003044 seconds 
+  Import took 0.008492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092974 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/hojaConGrietas/hojaConGrietas.blend
+  artifactKey: Guid(069695caaeeb631439f0897ac0d64894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/hojaConGrietas/hojaConGrietas.blend using Guid(069695caaeeb631439f0897ac0d64894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebb39e46eef4bebdbbbee82b87be574') in 0.048485 seconds 
+  Import took 0.056834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.029470 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma
+  artifactKey: Guid(f5b53260610264d408278e1ebbb63472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma using Guid(f5b53260610264d408278e1ebbb63472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849a285b287913e1c3dfae15f2dcf203') in 0.006462 seconds 
+  Import took 0.012653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065211 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma/nuevaarma.blend
+  artifactKey: Guid(90c1e904294513f4d88d376aa312e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma/nuevaarma.blend using Guid(90c1e904294513f4d88d376aa312e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec271f7ec262fe9e50dd596cb6574f5') in 0.043069 seconds 
+  Import took 0.049073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.525705 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma/hojaConGrietas
+  artifactKey: Guid(2e5775021057a044fbb1a4ce68cd5a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma/hojaConGrietas using Guid(2e5775021057a044fbb1a4ce68cd5a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8eec9ef9f186fbea8a33ef624f1056') in 0.002421 seconds 
+  Import took 0.007098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094005 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma/hojaConGrietas/hojaConGrietas.blend
+  artifactKey: Guid(103c4efb60d930a48b3c8c25e62ad6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma/hojaConGrietas/hojaConGrietas.blend using Guid(103c4efb60d930a48b3c8c25e62ad6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca7ce4a3a248c5dbec7cb53a862f9a4') in 0.024615 seconds 
+  Import took 0.030084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.373086 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma/nueva arma
+  artifactKey: Guid(648bebb59d76323439d1921e4a087c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma/nueva arma using Guid(648bebb59d76323439d1921e4a087c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c138ed6fca15b0d20adebecaa0ab629') in 0.002938 seconds 
+  Import took 0.007378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.112217 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma/nueva arma/nuevaarma.blend
+  artifactKey: Guid(80598cbe44cc9d245a51fd8cccf7af24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma/nueva arma/nuevaarma.blend using Guid(80598cbe44cc9d245a51fd8cccf7af24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107109a57c67cc8f708d6ae265f8626c') in 0.035038 seconds 
+  Import took 0.041944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.233728 seconds.
+  path: Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma/tercerBloque/tercerbloque.blend
+  artifactKey: Guid(a8b4b5ec02edae641b3be1d55a8f5f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptsnicolas/ultimaArma/hojaConGrietas/ultimaArma/tercerBloque/tercerbloque.blend using Guid(a8b4b5ec02edae641b3be1d55a8f5f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5827e89f456f0cb1c612a09e1fe07525') in 0.075212 seconds 
+  Import took 0.081395 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
