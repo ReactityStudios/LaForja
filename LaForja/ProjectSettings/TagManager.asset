@@ -7,6 +7,10 @@ TagManager:
   - piedra afilar
   - horno
   - martillo
+  - Prueba dureza
+  - Prueba filo
+  - Prueba letalidad
+  - templado
   layers:
   - Default
   - TransparentFX

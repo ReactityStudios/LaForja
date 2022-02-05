@@ -20,5 +20,8 @@ public class ControlNivel : ScriptableObject
     public Mesh mallaObjetoInicial;
     /*public Mesh mallaSaiMai;
     public Mesh mallaBarra;*/
+    public MeshFilter[] mallasObjetoDureza;
+    public MeshFilter[] mallasObjetoFilo;
+    public MeshFilter[] mallasObjetoLetalidad;
 
 }

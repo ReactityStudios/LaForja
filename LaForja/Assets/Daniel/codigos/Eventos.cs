@@ -9,14 +9,6 @@ public class Eventos : MonoBehaviour
     public CinemachineVirtualCamera[] cameraThir;
     public int encenderCamaraPos;
     public Mesh objetojuego;
-    
-    private void Start()
-    {
-        //objetojuego = caracteristicasJuegoV.GetComponent<MeshFilter>().mesh;
-       // objetojuego = control.MaterialSeleccionado.GetComponent<MeshFilter>(); 
-      // objetojuego = control.MaterialSeleccionado.GetComponent<MeshFilter>().sharedMesh;
-    }
-
     public void IniciarJuego()
     {
         int posSeleccion = Random.Range(0, control.inventarioCuchillosForjar.Length);
@@ -47,6 +39,9 @@ public class Eventos : MonoBehaviour
         control.MaterialSeleccionado = control.MaterialSeleccion;
 
         caracteristicasJuegoV.gameObject.GetComponent<MeshFilter>().mesh = control.MaterialSeleccionado.GetComponent<MeshFilter>().sharedMesh;
+        caracteristicasJuegoV.mallasObjetoDureza = control.mallasObjetoDureza;
+        caracteristicasJuegoV.mallasObjetoFilo = control.mallasObjetoFilo;
+        caracteristicasJuegoV.mallasObjetoLetalidad = control.mallasObjetoLetalidad;
         caracteristicasJuegoV.puntos = control.MaterialSeleccionado.GetComponent<Caracteristicas>().puntos;
         caracteristicasJuegoV.dificultad = control.MaterialSeleccionado.GetComponent<Caracteristicas>().dificultad;
         caracteristicasJuegoV.maleabilidad = control.MaterialSeleccionado.GetComponent<Caracteristicas>().maleabilidad;
@@ -69,8 +64,12 @@ public class Eventos : MonoBehaviour
                 encenderCamaraPos = 2;
                 break;
             case 2:
+                encenderCamaraPos = 3;
+                break;
+            case 3:
                 encenderCamaraPos = 0;
                 break;
+
         }
 
         for (int i = 0; i < cameraThir.Length; i++)
@@ -90,13 +89,16 @@ public class Eventos : MonoBehaviour
         switch (encenderCamaraPos)
         {
             case 0:
-                encenderCamaraPos = 2;
+                encenderCamaraPos = 3;
                 break;
             case 1:
                 encenderCamaraPos = 0;
                 break;
             case 2:
                 encenderCamaraPos = 1;
+                break;
+            case 3:
+                encenderCamaraPos = 2;
                 break;
         }
 

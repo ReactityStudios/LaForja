@@ -13,27 +13,39 @@ MonoBehaviour:
   m_Name: control nivel
   m_EditorClassIdentifier: 
   inventarioCuchillosForjar:
-  - {fileID: 3710503085731454652, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
-  - {fileID: 2517492893979882314, guid: d8fc0223dad460740ad16be6f04a10a4, type: 3}
-  - {fileID: 3203835422576407242, guid: 1fe62d90f024a54438023e8925000e5e, type: 3}
-  - {fileID: 3710503085731454652, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
+  - {fileID: 919132149155446097, guid: 26b83d6fb0975b543a6ebc0aacce039b, type: 3}
+  - {fileID: 919132149155446097, guid: 3a9f8677c39f4cd40970d8029ec28862, type: 3}
+  - {fileID: 919132149155446097, guid: e2d964b4b093d184998cb15fd3dde6c5, type: 3}
+  - {fileID: 919132149155446097, guid: cda564fbc345877459cb7a3ba41c19cc, type: 3}
   mallasArma1:
-  - {fileID: 4070742307575406914, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
-  - {fileID: 3570394034828530925, guid: d8fc0223dad460740ad16be6f04a10a4, type: 3}
-  - {fileID: 3004478531797272080, guid: 1fe62d90f024a54438023e8925000e5e, type: 3}
+  - {fileID: -5754084199372789682, guid: 0beb7247a3995ad4fa89513e47c420ab, type: 3}
+  - {fileID: -5754084199372789682, guid: c4ab6243506ac83408a928c413b491a0, type: 3}
+  - {fileID: -5754084199372789682, guid: 26b83d6fb0975b543a6ebc0aacce039b, type: 3}
+  mallasArma1Malas:
+  - {fileID: -5754084199372789682, guid: a5aebebf6baf1584aa9adefc22204a8c, type: 3}
+  - {fileID: -5754084199372789682, guid: 13b84b02d198c6642a7397ae81b7ddf0, type: 3}
   mallasArma2:
-  - {fileID: 4070742307575406914, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
-  - {fileID: 3570394034828530925, guid: d8fc0223dad460740ad16be6f04a10a4, type: 3}
-  - {fileID: 3004478531797272080, guid: 1fe62d90f024a54438023e8925000e5e, type: 3}
+  - {fileID: -5754084199372789682, guid: 40164f51e80765d459bd9a0f0242ebb3, type: 3}
+  - {fileID: -5754084199372789682, guid: 3a9f8677c39f4cd40970d8029ec28862, type: 3}
+  mallasArma2Malas:
+  - {fileID: -5754084199372789682, guid: 9dfb15bbaba36fd42a2c4e5e2c05ba3b, type: 3}
+  - {fileID: -5754084199372789682, guid: a979a90647b99dc4898f43c6eecb3a30, type: 3}
   mallasArma3:
-  - {fileID: 4070742307575406914, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
-  - {fileID: 3570394034828530925, guid: d8fc0223dad460740ad16be6f04a10a4, type: 3}
-  - {fileID: 3004478531797272080, guid: 1fe62d90f024a54438023e8925000e5e, type: 3}
+  - {fileID: -5754084199372789682, guid: 565d9611ef9f86a4d82e6ba1b73d0ec7, type: 3}
+  - {fileID: -5754084199372789682, guid: ff7060afef6515e4592fc91637c5ea4c, type: 3}
+  - {fileID: 5334037119324981776, guid: e2d964b4b093d184998cb15fd3dde6c5, type: 3}
+  mallasArma3Malas:
+  - {fileID: -5754084199372789682, guid: b3707b4caa643724a9ee98bbf52aa11d, type: 3}
+  - {fileID: -5754084199372789682, guid: 50c0cb476a098794982e14938f98a4cb, type: 3}
   mallasArma4:
-  - {fileID: 4070742307575406914, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
-  - {fileID: 3570394034828530925, guid: d8fc0223dad460740ad16be6f04a10a4, type: 3}
-  - {fileID: 3004478531797272080, guid: 1fe62d90f024a54438023e8925000e5e, type: 3}
-  cuchilloAForjar: {fileID: 3710503085731454652, guid: c9ffda85bb1392645ab23f2296b58035, type: 3}
-  MaterialSeleccionado: {fileID: 2451575690003969062, guid: 92513952c9ed18749bdc5b108d30d246, type: 3}
-  MaterialSeleccion: {fileID: 7025905723797874639, guid: 53abb34f792db694eb752200a45b299c, type: 3}
+  - {fileID: -5754084199372789682, guid: 1987cffaf9569c34488d8b25c392b0cd, type: 3}
+  - {fileID: -5754084199372789682, guid: 79db016cd08e4e2439fdf7543b84ec49, type: 3}
+  mallasArma4Malas:
+  - {fileID: -5754084199372789682, guid: 5c986289701b3c14d81a5262cd270d93, type: 3}
+  cuchilloAForjar: {fileID: 919132149155446097, guid: e2d964b4b093d184998cb15fd3dde6c5, type: 3}
+  MaterialSeleccionado: {fileID: 0}
+  MaterialSeleccion: {fileID: 0}
   mallaObjetoInicial: {fileID: 0}
+  mallasObjetoDureza: []
+  mallasObjetoFilo: []
+  mallasObjetoLetalidad: []
