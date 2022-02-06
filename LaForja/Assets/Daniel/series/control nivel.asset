@@ -24,6 +24,7 @@ MonoBehaviour:
   mallasArma1Malas:
   - {fileID: -5754084199372789682, guid: a5aebebf6baf1584aa9adefc22204a8c, type: 3}
   - {fileID: -5754084199372789682, guid: 13b84b02d198c6642a7397ae81b7ddf0, type: 3}
+  - {fileID: -5754084199372789682, guid: a979a90647b99dc4898f43c6eecb3a30, type: 3}
   mallasArma2:
   - {fileID: -5754084199372789682, guid: 40164f51e80765d459bd9a0f0242ebb3, type: 3}
   - {fileID: -5754084199372789682, guid: 3a9f8677c39f4cd40970d8029ec28862, type: 3}
@@ -42,7 +43,7 @@ MonoBehaviour:
   - {fileID: -5754084199372789682, guid: 79db016cd08e4e2439fdf7543b84ec49, type: 3}
   mallasArma4Malas:
   - {fileID: -5754084199372789682, guid: 5c986289701b3c14d81a5262cd270d93, type: 3}
-  cuchilloAForjar: {fileID: 919132149155446097, guid: e2d964b4b093d184998cb15fd3dde6c5, type: 3}
+  cuchilloAForjar: {fileID: 919132149155446097, guid: 3a9f8677c39f4cd40970d8029ec28862, type: 3}
   MaterialSeleccionado: {fileID: 0}
   MaterialSeleccion: {fileID: 0}
   mallaObjetoInicial: {fileID: 0}
